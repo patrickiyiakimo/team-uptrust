@@ -619,6 +619,7 @@ font-size:25px;
 .meetourteam .newsletter p {
   color: purple;
   margin-left: 30px;
+  margin-bottom:20px;
 }
 .meetourteam .newsletter input {
   margin-bottom: 40px;
@@ -648,7 +649,7 @@ font-size:25px;
 }
 .footer li span h3 {
   margin-right: 1px;
-  margin-left: 10px;
+  margin-left: 30px;
   color: white;
 }
 .footer li {
