@@ -387,7 +387,7 @@ body {
 }
 .navbar .list li button {
   margin-left: 20px;
-  margin-right: 20px;
+  margin-right: 0px;
   padding: 15px 30px;
   border-radius: 8px;
   color: white;
