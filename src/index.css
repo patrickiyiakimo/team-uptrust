@@ -574,7 +574,7 @@ body {
   }
 
   .meetourteam .img img {
-    width: 250px; /* Make the image fill the container */
+    width: 200px; /* Make the image fill the container */
     height: 300px;
     border-radius: 30px;
     /* padding: 30px; */
