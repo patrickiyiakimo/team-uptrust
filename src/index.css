@@ -89,6 +89,9 @@ body {
   border: none;
   text-align: center;
 }
+.Spark span button:hover {
+  cursor: pointer;
+}
 .hero {
   background-color: rgb(8, 8, 27);
   margin-top: 90px;
@@ -204,6 +207,9 @@ body {
   background: linear-gradient(to left, blue, rgb(137, 15, 105));
   border: none;
   text-align: center;
+}
+.ourstory .section button:hover{
+  cursor:pointer;
 }
 
 .meetourteam .img p {
