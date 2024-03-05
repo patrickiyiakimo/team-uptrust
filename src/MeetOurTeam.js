@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import duru from "./image/FB_IMG_1706401480348.jpg";
 import myles from "./image/WhatsApp Image 2024-02-26 at 21.33.25_46741bc0.jpg";
-// import van from "./image/WhatsApp Image 2024-02-26 at 21.30.46_917ee226.jpg";
+import van from "./image/WhatsApp Image 2024-02-26 at 21.30.37_a4286390.jpg"
 import pat from "./image/IMG_E3124.JPG";
 
 const MeetOurTeam = () => {
@@ -20,7 +20,7 @@ const MeetOurTeam = () => {
         <img src={myles} alt="Myles" />
         {/* <p>Backend Engineer</p>
           <strong>Cyril Emmanuel</strong> */}
-        {/* <img src={van} alt="Van" /> */}
+        <img src={van} alt="Van" />
         {/* <p>AI/ML Engineer </p>
           <strong>Vanessa Ndikom</strong> */}
         <img src={pat} alt="Pat" />
