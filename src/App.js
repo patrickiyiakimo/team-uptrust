@@ -7,6 +7,7 @@ import Navbar from "./Navbar";
 import OurStory from "./OurStory";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import SignUp from "./SignUp";
+import Dashboard from "./DashBoard";
 
 function App() {
   return (
@@ -16,13 +17,12 @@ function App() {
           <Route path="/SignUp">
             <SignUp />
           </Route>
+          <Route path="/GetStarted">
+            <Dashboard />
+          </Route>
           <Route exact path="/">
             <Navbar />
-
-            {/* </Switch> */}
-            <div className="header">
-              <Header />
-            </div>
+            <Header />
             <div className="hero">
               <Hero />
             </div>

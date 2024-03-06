@@ -1,3 +1,4 @@
+// import { Link } from "@mui/material";
 import { motion } from "framer-motion";
 
 const OurStory = () => {
@@ -16,15 +17,17 @@ const OurStory = () => {
           Comparison, it streamlines your job search and skills development with
           prioritising privacy and security.
         </p>
-        <motion.button
-          whileHover={{
-            scale: 1.1,
-            textShadow: "0px 0px 8px blue",
-            boxShadow: "0px 0px 8px blue",
-          }}
-        >
-          Learn More
-        </motion.button>
+      
+          <motion.button
+            whileHover={{
+              scale: 1.1,
+              textShadow: "0px 0px 8px blue",
+              boxShadow: "0px 0px 8px blue",
+            }}
+          >
+            Learn More
+          </motion.button>
+        
       </div>
     </div>
   );

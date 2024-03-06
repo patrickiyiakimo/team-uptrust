@@ -1,4 +1,6 @@
+// import { Link } from "@mui/material";
 import { motion } from "framer-motion";
+import { Link as RouterLink } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -26,20 +28,22 @@ const Header = () => {
         <p>
           Embark on a transforming journey with <strong>Uptrust</strong>
         </p>
-        <motion.span>
-          <motion.button
-            initial={{ x: "-100vw" }}
-            animate={{ x: 0 }}
-            transition={{ delay: 0.5, duration: 1.5 }}
-            whileHover={{
-              scale: 1.1,
-              textShadow: "0px 0px 8px blue",
-              boxShadow: "0px 0px 8px blue",
-            }}
-          >
-            Get Started
-          </motion.button>
-        </motion.span>
+        <RouterLink to="/GetStarted">
+          <motion.span>
+            <motion.button
+              initial={{ x: "-100vw" }}
+              animate={{ x: 0 }}
+              transition={{ delay: 0.5, duration: 1.5 }}
+              whileHover={{
+                scale: 1.1,
+                textShadow: "0px 0px 8px blue",
+                boxShadow: "0px 0px 8px blue",
+              }}
+            >
+              Get Started
+            </motion.button>
+          </motion.span>
+        </RouterLink>
       </div>
     </div>
   );
