@@ -697,7 +697,7 @@ body {
     color: transparent;
     -webkit-background-clip: text;
     background-clip: text;
-    display: inline-block;
+    /* display: inline-block; */
     margin-top: 20px;
     padding-bottom: 30px;
     text-align: center;
