@@ -15,17 +15,17 @@ const MeetOurTeam = () => {
       </div>
       <div className="img">
         <img src={duru} alt="Duru" />
-        {/* <p>Backend Engineer</p>
-          <strong>Obinna Franklin Duru</strong> */}
+        <p>Backend Engineer</p>
+          <strong>Obinna Franklin Duru</strong>
         <img src={myles} alt="Myles" />
-        {/* <p>Backend Engineer</p>
-          <strong>Cyril Emmanuel</strong> */}
+        <p>Backend Engineer</p>
+          <strong>Cyril Emmanuel</strong>
         <img src={van} alt="Van" />
-        {/* <p>AI/ML Engineer </p>
-          <strong>Vanessa Ndikom</strong> */}
+        <p>AI/ML Engineer </p>
+          <strong>Vanessa Ndikom</strong>
         <img src={pat} alt="Pat" />
-        {/* <p>FrontEnd Engineer</p>
-          <strong>Patrick Iyiakimo</strong> */}
+        <p>FrontEnd Engineer</p>
+          <strong>Patrick Iyiakimo</strong>
       </div>
       <div className="newsletter">
         <h2>Sign up to our newsletter</h2>
