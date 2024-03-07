@@ -710,7 +710,7 @@ body {
  opacity:0.5;
  border:none;
  outline:none;
- margin-left:15%;
+ margin-left:12%;
  margin-top:100px;
  margin-bottom:50px;
 }
@@ -723,6 +723,7 @@ body {
    background-color: rgb(8, 8, 27);
    margin-right:20px;
    margin-left:20px;
+   margin-bottom:40px;
    padding-right:10px;
     padding-left:10px;
    border-radius:10px;
@@ -732,5 +733,11 @@ body {
   height:20px;
   position:absolute;
   left:70%;
+}
+.section h3{
+color:white;
+}
+.section p{
+color:white;
 }
 }
