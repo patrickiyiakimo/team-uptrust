@@ -7,7 +7,7 @@ import Navbar from "./Navbar";
 import OurStory from "./OurStory";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import SignUp from "./SignUp";
-import Dashboard from "./DashBoard";
+import Profile from "./Profile";
 
 function App() {
   return (
@@ -18,7 +18,7 @@ function App() {
             <SignUp />
           </Route>
           <Route path="/GetStarted">
-            <Dashboard />
+            <Profile />
           </Route>
           <Route exact path="/">
             <Navbar />

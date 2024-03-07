@@ -702,4 +702,35 @@ body {
     padding-bottom: 30px;
     text-align: center;
   }
+  .Profile button {
+ border-radius:100%;
+ width:200px;
+ height:200px;
+ background-color: rgb(62, 14, 62);
+ opacity:0.5;
+ border:none;
+ outline:none;
+ margin-left:15%;
+ margin-top:100px;
+ margin-bottom:50px;
+}
+.Profile svg{
+  color:rgb(217, 209, 209);
+  width:150px;
+  height:150px;
+}
+.section{
+   background-color: rgb(8, 8, 27);
+   margin-right:20px;
+   margin-left:20px;
+   padding-right:10px;
+    padding-left:10px;
+   border-radius:10px;
+}
+.section span svg{
+  width:20px;
+  height:20px;
+  position:absolute;
+  left:70%;
+}
 }
