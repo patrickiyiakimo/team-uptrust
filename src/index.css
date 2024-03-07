@@ -725,6 +725,7 @@ body {
    margin-left:20px;
    margin-bottom:40px;
    padding-right:30px;
+   padding-bottom:30px;
     padding-left:30px;
    border-radius:10px;
 }
@@ -737,6 +738,7 @@ body {
 .section h3{
 color:white;
 padding-bottom:30px;
+padding-top:30px;
 }
 .section p{
 color:white;
