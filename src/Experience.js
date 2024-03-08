@@ -19,12 +19,10 @@ const Experieence = () => {
             </svg>
           </span>
           <h3>Experience</h3>
-          <p>
-            Enthuastic frontend engineer with a strong foundation. Seeking a
-            dynamic role to contribute to cutting edge web development projects,
-            collaborate with experienced professionals, further develope my
-            skills in a growth-focused and impactful environment.
-          </p>
+          <h4>
+          Frontend Engineer 
+          </h4>
+          <p>FlaveConsole . Full-time <br></br> Nov 2023 - Present</p>
         </div>
       </div>
     );
