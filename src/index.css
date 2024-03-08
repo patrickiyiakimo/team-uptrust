@@ -816,7 +816,8 @@ color:white;
 }
 .icon input{
   padding:15px 80px;
-  margin:30px;
+   margin-top:30px;
+  margin-left:50px;
   outline:none;
   border-radius:8px;
   border-color:blue;
@@ -829,6 +830,7 @@ color:white;
   border:8px;
    background: linear-gradient(to left, blue, rgb(137, 15, 105));
    border-radius: 8px;
+   color:white;
 }
 
 }
