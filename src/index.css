@@ -713,6 +713,7 @@ body {
  margin-left:12%;
  margin-top:100px;
  margin-bottom:50px;
+ padding-bottom:20px;
 }
 .Profile svg{
   color:rgb(217, 209, 209);
@@ -742,7 +743,7 @@ margin-right:30px;
   height:20px;
   position:absolute;
   left:70%;
-  margin-top:50px;
+  margin-top:40px;
   /* top:68%; */
 }
 .section h3{
