@@ -21,7 +21,7 @@ const Skill = () => {
           <h3>Skills</h3>
           <h4>Frontend Engineer at FlaveConsole</h4>
           <p>
-           HTML,GITHUB,CSS,JavaScript
+           HTML, GITHUB, CSS, JavaScript
           </p>
         </div>
       </div>
