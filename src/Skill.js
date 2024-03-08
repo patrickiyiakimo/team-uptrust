@@ -19,11 +19,9 @@ const Skill = () => {
             </svg>
           </span>
           <h3>Skills</h3>
+          <h4>Frontend Engineer at FlaveConsole</h4>
           <p>
-            Enthuastic frontend engineer with a strong foundation. Seeking a
-            dynamic role to contribute to cutting edge web development projects,
-            collaborate with experienced professionals, further develope my
-            skills in a growth-focused and impactful environment.
+           HTML,GITHUB,CSS,JavaScript
           </p>
         </div>
       </div>

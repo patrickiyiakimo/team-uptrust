@@ -19,11 +19,9 @@ const Education = () => {
             </svg>
           </span>
           <h3>Education</h3>
+          <h4>The Federal Polytechnic Nekede, Owerri</h4>
           <p>
-            Enthuastic frontend engineer with a strong foundation. Seeking a
-            dynamic role to contribute to cutting edge web development projects,
-            collaborate with experienced professionals, further develope my
-            skills in a growth-focused and impactful environment.
+           Bachelor of Science - BS, Estate Management and Valuation.
           </p>
         </div>
       </div>
