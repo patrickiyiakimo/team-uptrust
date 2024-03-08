@@ -11,6 +11,7 @@ import Profile from "./Profile";
 // import { Icon } from "@mui/material";
 import Icon from "./Icon";
 import Skills from "./Skills";
+import Experiences from "./Experiences";
 
 function App() {
   return (
@@ -28,6 +29,9 @@ function App() {
           </Route>
           <Route path="/skills">
             <Skills />
+          </Route>
+          <Route path="/Experiences">
+            <Experiences />
           </Route>
           <Route exact path="/">
             <Navbar />
