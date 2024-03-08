@@ -1,7 +1,7 @@
 const Experieence = () => {
     return (
       <div className="experience">
-        <div className="section">
+        <div className="section-two">
           <span>
             <svg
               xmlns="http://www.w3.org/2000/svg"
