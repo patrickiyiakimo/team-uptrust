@@ -724,6 +724,9 @@ body {
   margin-left:20px;
   color:white;
 }
+.Profile strong{
+margin-top:30px;
+}
 .section{
    background-color: rgb(8, 8, 27);
    margin-right:20px;
@@ -739,6 +742,7 @@ body {
   height:20px;
   position:absolute;
   left:70%;
+  margin-top:70px;
   /* top:68%; */
 }
 .section h3{
