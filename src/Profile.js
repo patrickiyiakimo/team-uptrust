@@ -45,8 +45,8 @@ const Profile = () => {
             />
           </svg>
         </span>
-        <h3>About</h3>
         <strong>Patrick Iyiakimo</strong>
+        <h3>About</h3>
         <p>
           Enthusiastic frontend engineer with a strong foundation. Seeking a
           dynamic role to contribute to cutting edge web development projects,
