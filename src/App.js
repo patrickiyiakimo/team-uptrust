@@ -8,6 +8,8 @@ import OurStory from "./OurStory";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import SignUp from "./SignUp";
 import Profile from "./Profile";
+// import { Icon } from "@mui/material";
+import Icon from "./Icon";
 
 function App() {
   return (
@@ -19,6 +21,9 @@ function App() {
           </Route>
           <Route path="/GetStarted">
             <Profile />
+          </Route>
+          <Route path="/icon">
+            <Icon />
           </Route>
           <Route exact path="/">
             <Navbar />
