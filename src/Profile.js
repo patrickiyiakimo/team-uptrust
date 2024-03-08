@@ -28,7 +28,7 @@ const Profile = () => {
           />
         </svg>
       </button>
-      <strong>Patrick Iyiakimo</strong>
+      {/* <strong>Patrick Iyiakimo</strong> */}
       <div className="section">
         <span>
           <svg
