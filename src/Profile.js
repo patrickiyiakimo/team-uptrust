@@ -29,7 +29,7 @@ const Profile = () => {
         </svg>
       </button>
       {/* <strong>Patrick Iyiakimo</strong> */}
-      <div className="section">
+      <div className="section-two">
         <span>
           <svg
             xmlns="http://www.w3.org/2000/svg"

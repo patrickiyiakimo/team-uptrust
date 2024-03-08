@@ -728,7 +728,7 @@ body {
 .Profile strong{
 margin-right:30px;
 }
-.section{
+.section-two{
    background-color: rgb(8, 8, 27);
    margin-right:20px;
    margin-left:20px;
@@ -738,7 +738,7 @@ margin-right:30px;
     padding-left:30px;
    border-radius:10px;
 }
-.section span svg{
+.section-two span svg{
   width:20px;
   height:20px;
   position:absolute;
@@ -746,16 +746,16 @@ margin-right:30px;
   margin-top:40px;
   /* top:68%; */
 }
-.section h3{
+.section-two h3{
 color:purple;
 padding-top:30px;
 padding-bottom:30px;
 margin-top:30px;
 }
-.section h4{
+.section-two h4{
   color:white;
 }
-.section p{
+.section-two p{
 color:white;
 }
 }
