@@ -1,7 +1,10 @@
+import { Link as RouterLink } from "react-router-dom";
+
 const Education = () => {
-    return (
-      <div className="education">
-        <div className="section-two">
+  return (
+    <div className="education">
+      <div className="section-two">
+        <RouterLink to="icon">
           <span>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -18,14 +21,13 @@ const Education = () => {
               />
             </svg>
           </span>
-          <h3>Education</h3>
-          <h4>The Federal Polytechnic Nekede, Owerri</h4>
-          <p>
-           Bachelor of Science - BS, Estate Management and Valuation.
-          </p>
-        </div>
+        </RouterLink>
+        <h3>Education</h3>
+        <h4>The Federal Polytechnic Nekede, Owerri</h4>
+        <p>Bachelor of Science - BS, Estate Management and Valuation.</p>
       </div>
-    );
-}
- 
+    </div>
+  );
+};
+
 export default Education;

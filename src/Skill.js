@@ -1,7 +1,10 @@
+import { Link as RouterLink } from "react-router-dom";
+
 const Skill = () => {
-    return (
-      <div className="skill">
-        <div className="section-two">
+  return (
+    <div className="skill">
+      <div className="section-two">
+        <RouterLink to="icon">
           <span>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -18,14 +21,13 @@ const Skill = () => {
               />
             </svg>
           </span>
-          <h3>Skills</h3>
-          <h4>Frontend Engineer at FlaveConsole</h4>
-          <p>
-           HTML, GITHUB, CSS, JavaScript
-          </p>
-        </div>
+        </RouterLink>
+        <h3>Skills</h3>
+        <h4>Frontend Engineer at FlaveConsole</h4>
+        <p>HTML, GITHUB, CSS, JavaScript</p>
       </div>
-    );
-}
- 
+    </div>
+  );
+};
+
 export default Skill;

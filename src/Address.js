@@ -1,7 +1,10 @@
+import { Link as RouterLink } from "react-router-dom";
+
 const Address = () => {
-    return (
-      <div className="address">
-        <div className="section-two">
+  return (
+    <div className="address">
+      <div className="section-two">
+        <RouterLink to="icon">
           <span>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -18,12 +21,12 @@ const Address = () => {
               />
             </svg>
           </span>
-          <h3>Address</h3>
-          <h4>Ikeja, Lagos State, Nigeria</h4>
-        
-        </div>
+        </RouterLink>
+        <h3>Address</h3>
+        <h4>Ikeja, Lagos State, Nigeria</h4>
       </div>
-    );
-}
- 
+    </div>
+  );
+};
+
 export default Address;

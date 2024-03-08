@@ -1,7 +1,10 @@
+import { Link as RouterLink } from "react-router-dom";
+
 const Social = () => {
-    return (
-      <div className="social">
-        <div className="section-two">
+  return (
+    <div className="social">
+      <div className="section-two">
+        <RouterLink to="icon">
           <span>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -18,14 +21,16 @@ const Social = () => {
               />
             </svg>
           </span>
-          <h3>Social</h3>
-          <h4>Add social media handles</h4>
-          <p>
-           User provides details such as links to Facebook, LinkedIn, Twitter, etc.
-          </p>
-        </div>
+        </RouterLink>
+        <h3>Social</h3>
+        <h4>Add social media handles</h4>
+        <p>
+          User provides details such as links to Facebook, LinkedIn, Twitter,
+          etc.
+        </p>
       </div>
-    );
-}
- 
+    </div>
+  );
+};
+
 export default Social;
