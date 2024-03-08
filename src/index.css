@@ -813,6 +813,7 @@ color:white;
   padding-top:30px;
   text-align:center;
   color:purple;
+  text-shadow: 1px 1px 8px blue;
 }
 .icon input{
   padding:15px 80px;
