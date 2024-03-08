@@ -4,7 +4,7 @@ const Skill = () => {
   return (
     <div className="skill">
       <div className="section-two">
-        <RouterLink to="icon">
+        <RouterLink to="skills">
           <span>
             <svg
               xmlns="http://www.w3.org/2000/svg"
