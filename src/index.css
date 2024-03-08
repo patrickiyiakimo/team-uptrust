@@ -808,4 +808,27 @@ margin-top:30px;
 .section-two p{
 color:white;
 }
+
+.icon h1{
+  padding-top:30px;
+  text-align:center;
+  color:purple;
+}
+.icon input{
+  padding:15px 80px;
+  margin:30px;
+  outline:none;
+  border-radius:8px;
+  border-color:blue;
+  background-color:transparent;
+  color:white;
+}
+.icon button{
+  padding:12px 30px;
+  margin-left:150px;
+  border:8px;
+   background: linear-gradient(to left, blue, rgb(137, 15, 105));
+   border-radius: 8px;
+}
+
 }
