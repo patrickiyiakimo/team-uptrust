@@ -19,11 +19,9 @@ const Social = () => {
             </svg>
           </span>
           <h3>Social</h3>
+          <h4>Add social media handles</h4>
           <p>
-            Enthuastic frontend engineer with a strong foundation. Seeking a
-            dynamic role to contribute to cutting edge web development projects,
-            collaborate with experienced professionals, further develope my
-            skills in a growth-focused and impactful environment.
+           User provides details such as links to Facebook, LinkedIn, Twitter, etc.
           </p>
         </div>
       </div>

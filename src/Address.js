@@ -19,12 +19,8 @@ const Address = () => {
             </svg>
           </span>
           <h3>Address</h3>
-          <p>
-            Enthuastic frontend engineer with a strong foundation. Seeking a
-            dynamic role to contribute to cutting edge web development projects,
-            collaborate with experienced professionals, further develope my
-            skills in a growth-focused and impactful environment.
-          </p>
+          <h4>Ikeja, Lagos State, Nigeria</h4>
+        
         </div>
       </div>
     );
