@@ -10,7 +10,7 @@ import SignUp from "./SignUp";
 import Profile from "./Profile";
 // import { Icon } from "@mui/material";
 import Icon from "./Icon";
-import Skill from "./Skills";
+import Skills from "./Skills";
 
 function App() {
   return (
