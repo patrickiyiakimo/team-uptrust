@@ -29,6 +29,7 @@ const Profile = () => {
         </svg>
       </button>
       <div className="section">
+        <strong>Patrick Iyiakimo</strong>
         <span>
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -45,7 +46,6 @@ const Profile = () => {
             />
           </svg>
         </span>
-        <strong>Patrick Iyiakimo</strong>
         <h3>About</h3>
         <p>
           Enthusiastic frontend engineer with a strong foundation. Seeking a
