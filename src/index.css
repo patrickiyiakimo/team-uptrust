@@ -838,6 +838,7 @@ color:white;
   padding-top:30px;
   text-align:center;
   color:purple;
+  text-shadow:1px 1px 8px blue;
 }
 .experience input{
   padding:15px 80px;
@@ -852,6 +853,7 @@ color:white;
 .experience button{
   padding:12px 30px;
   margin-left:150px;
+  margin-top:30px;
   border:8px;
    background: linear-gradient(to left, blue, rgb(137, 15, 105));
    border-radius: 8px;
