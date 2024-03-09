@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import TextField from "@mui/material/TextField";
-
-
+import { useHistory } from "react-router-dom";
 import { motion } from "framer-motion";
 
 const svgVariants = {
@@ -34,6 +33,9 @@ const SignUp = () => {
   const [UsernameError, setUsernameError] = useState(false);
   const [PasswordError, setPasswordError] = useState(false);
   const [EmailError, setEmailError] = useState(false);
+  const [isLoading, setIsLoading] = useState(false);
+  const history = useHistory();
+
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -56,6 +58,19 @@ const SignUp = () => {
     if (Username && Password && Email) {
       console.log(Username, Password, Email);
     }
+
+
+    setIsLoading(true);
+
+    fetch("https://uptrust-service-api.onrender.com/register", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(SignUp),
+    }).then(() => {
+      console.log("new data added");
+      setIsLoading(false);
+      history.push("/");
+    });
   };
 
   return (
@@ -86,11 +101,12 @@ const SignUp = () => {
           />
         </motion.svg>
       </div>
+
+      <h1>Uptrust</h1>
+      <p>
+        Unlock Your Potential with <span> Intelligent career Guidance</span>
+      </p>
       <form noValidate autoComplete="off" onSubmit={handleSubmit}>
-        <h1>Uptrust</h1>
-        <p>
-          Unlock Your Potential with <span> Intelligent career Guidance</span>
-        </p>
         <TextField
           style={{
             width: "500px",
@@ -99,7 +115,7 @@ const SignUp = () => {
             label: "secondary",
           }}
           onChange={(e) => setUsername(e.target.value)}
-          label="Username"
+          label="Phone Number"
           variant="outlined"
           color="secondary"
           required
@@ -135,19 +151,41 @@ const SignUp = () => {
           error={EmailError}
         />
         <br></br>
-        <motion.button
-          initial={{ x: "-100vw" }}
-          animate={{ x: 0 }}
-          transition={{ delay: 0.5, duration: 1.5 }}
-          type="submit"
-          whileHover={{
-            scale: 1.1,
-            textShadow: "0px 0px 8px blue",
-            boxShadow: "0px 0px 8px blue",
-          }}
-        >
-          Submit
-        </motion.button>
+        {
+          !isLoading&&
+          <motion.button
+            onClick={handleSubmit}
+            initial={{ x: "-100vw" }}
+            animate={{ x: 0 }}
+            transition={{ delay: 0.5, duration: 1.5 }}
+            type="submit"
+            whileHover={{
+              scale: 1.1,
+              textShadow: "0px 0px 8px blue",
+              boxShadow: "0px 0px 8px blue",
+            }}
+          >
+            Submit
+          </motion.button>
+        }
+        {
+          isLoading&&
+          <motion.button
+              disabled
+            onClick={handleSubmit}
+            initial={{ x: "-100vw" }}
+            animate={{ x: 0 }}
+            transition={{ delay: 0.5, duration: 1.5 }}
+            type="submit"
+            whileHover={{
+              scale: 1.1,
+              textShadow: "0px 0px 8px blue",
+              boxShadow: "0px 0px 8px blue",
+            }}
+          >
+            Submitting...
+          </motion.button>
+        }
       </form>
     </div>
   );
