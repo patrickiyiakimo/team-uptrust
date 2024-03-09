@@ -4,7 +4,7 @@ const Address = () => {
   return (
     <div className="address">
       <div className="section-two">
-        <RouterLink to="address">
+        <RouterLink to="addresses">
           <span>
             <svg
               xmlns="http://www.w3.org/2000/svg"

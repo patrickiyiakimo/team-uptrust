@@ -812,8 +812,7 @@ color:white;
 .icon h1{
   padding-top:30px;
   text-align:center;
-  color:purple;
-  text-shadow: 1px 1px 8px blue;
+  color:white;
 }
 .icon input{
   padding:15px 80px;
@@ -837,8 +836,8 @@ color:white;
 .experience h1{
   padding-top:30px;
   text-align:center;
-  color:purple;
-  text-shadow:1px 1px 8px blue;
+  color:white;
+ 
 }
 .experience input{
   padding:15px 80px;
@@ -851,6 +850,81 @@ color:white;
   color:white;
 }
 .experience button{
+  padding:12px 30px;
+  margin-left:150px;
+  margin-top:30px;
+  border:8px;
+   background: linear-gradient(to left, blue, rgb(137, 15, 105));
+   border-radius: 8px;
+   color:white;
+}
+.experience h1{
+  padding-top:30px;
+  text-align:center;
+  color:white;
+ 
+}
+.experience input{
+  padding:15px 80px;
+  margin-top:30px;
+  margin-left:50px;
+  outline:none;
+  border-radius:8px;
+  border-color:blue;
+  background-color:transparent;
+  color:white;
+}
+.experience button{
+  padding:12px 30px;
+  margin-left:150px;
+  margin-top:30px;
+  border:8px;
+   background: linear-gradient(to left, blue, rgb(137, 15, 105));
+   border-radius: 8px;
+   color:white;
+}
+.experience h1{
+  padding-top:30px;
+  text-align:center;
+  color:white;
+ 
+}
+.experience input{
+  padding:15px 80px;
+  margin-top:30px;
+  margin-left:50px;
+  outline:none;
+  border-radius:8px;
+  border-color:blue;
+  background-color:transparent;
+  color:white;
+}
+.experience button{
+  padding:12px 30px;
+  margin-left:150px;
+  margin-top:30px;
+  border:8px;
+   background: linear-gradient(to left, blue, rgb(137, 15, 105));
+   border-radius: 8px;
+   color:white;
+}
+.socials h1{
+  padding-top:30px;
+  text-align:center;
+  color:white;
+ 
+}
+.socials input{
+  padding:15px 80px;
+  margin-top:30px;
+  margin-left:50px;
+  outline:none;
+  border-radius:8px;
+  border-color:blue;
+  background-color:transparent;
+  color:white;
+}
+.socials button{
   padding:12px 30px;
   margin-left:150px;
   margin-top:30px;

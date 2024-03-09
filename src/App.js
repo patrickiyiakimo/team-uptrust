@@ -12,6 +12,9 @@ import Profile from "./Profile";
 import Icon from "./Icon";
 import Skills from "./Skills";
 import Experiences from "./Experiences";
+import Education from "./Education";
+import Social from "./Social";
+import Address from "./Address";
 
 function App() {
   return (
@@ -32,6 +35,15 @@ function App() {
           </Route>
           <Route path="/experiences">
             <Experiences />
+          </Route>
+          <Route path="/education">
+            <Education />
+          </Route>
+          <Route path="/social">
+            <Social />
+          </Route>
+          <Route path="/address">
+            <Address />
           </Route>
           <Route exact path="/">
             <Navbar />
