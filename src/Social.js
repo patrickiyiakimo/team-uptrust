@@ -4,7 +4,7 @@ const Social = () => {
   return (
     <div className="social">
       <div className="section-two">
-        <RouterLink to="Socials">
+        <RouterLink to="socials">
           <span>
             <svg
               xmlns="http://www.w3.org/2000/svg"

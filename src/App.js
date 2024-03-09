@@ -13,8 +13,8 @@ import Icon from "./Icon";
 import Skills from "./Skills";
 import Experiences from "./Experiences";
 import Education from "./Education";
-import Social from "./Social";
-import Address from "./Address";
+import Socials from "./Socials";
+import Addresses from "./Addresses";
 
 function App() {
   return (
@@ -39,7 +39,7 @@ function App() {
           <Route path="/education">
             <Education />
           </Route>
-          <Route path="/socials">
+          <Route path="/Socials">
             <Social />
           </Route>
           <Route path="/Addresses">
