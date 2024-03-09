@@ -40,10 +40,10 @@ function App() {
             <Education />
           </Route>
           <Route path="/Socials">
-            <Social />
+            <Socials />
           </Route>
           <Route path="/Addresses">
-            <Address />
+            <Addresses />
           </Route>
           <Route exact path="/">
             <Navbar />
