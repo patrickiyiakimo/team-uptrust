@@ -39,10 +39,10 @@ function App() {
           <Route path="/education">
             <Education />
           </Route>
-          <Route path="/social">
+          <Route path="/socials">
             <Social />
           </Route>
-          <Route path="/address">
+          <Route path="/addresses">
             <Address />
           </Route>
           <Route exact path="/">
