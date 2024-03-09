@@ -908,13 +908,14 @@ color:white;
    border-radius: 8px;
    color:white;
 }
-.Socials h1{
+.socials h1{
   padding-top:30px;
   text-align:center;
   color:white;
+  text-shadow:1px 1px 8px white;
  
 }
-.Socials input{
+.socials input{
   padding:15px 80px;
   margin-top:30px;
   margin-left:50px;
@@ -924,7 +925,7 @@ color:white;
   background-color:transparent;
   color:white;
 }
-.Socials button{
+.socials button{
   padding:12px 30px;
   margin-left:150px;
   margin-top:30px;
