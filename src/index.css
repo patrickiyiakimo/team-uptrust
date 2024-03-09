@@ -883,13 +883,13 @@ color:white;
    border-radius: 8px;
    color:white;
 }
-.addresses h1{
+.Addresses h1{
   padding-top:30px;
   text-align:center;
   color:white;
  
 }
-.addresses input{
+.Addresses input{
   padding:15px 80px;
   margin-top:30px;
   margin-left:50px;
@@ -899,7 +899,7 @@ color:white;
   background-color:transparent;
   color:white;
 }
-.addresses button{
+.Addresses button{
   padding:12px 30px;
   margin-left:150px;
   margin-top:30px;
@@ -908,13 +908,13 @@ color:white;
    border-radius: 8px;
    color:white;
 }
-.socials h1{
+.Socials h1{
   padding-top:30px;
   text-align:center;
   color:white;
  
 }
-.socials input{
+.Socials input{
   padding:15px 80px;
   margin-top:30px;
   margin-left:50px;
@@ -924,7 +924,7 @@ color:white;
   background-color:transparent;
   color:white;
 }
-.socials button{
+.Socials button{
   padding:12px 30px;
   margin-left:150px;
   margin-top:30px;
