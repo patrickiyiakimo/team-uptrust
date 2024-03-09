@@ -883,13 +883,13 @@ color:white;
    border-radius: 8px;
    color:white;
 }
-.Addresses h1{
+.addresses h1{
   padding-top:30px;
   text-align:center;
   color:white;
  
 }
-.Addresses input{
+.addresses input{
   padding:15px 80px;
   margin-top:30px;
   margin-left:50px;
@@ -899,7 +899,7 @@ color:white;
   background-color:transparent;
   color:white;
 }
-.Addresses button{
+.addresses button{
   padding:12px 30px;
   margin-left:150px;
   margin-top:30px;

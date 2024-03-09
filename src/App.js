@@ -42,7 +42,7 @@ function App() {
           <Route path="/socials">
             <Social />
           </Route>
-          <Route path="/addresses">
+          <Route path="/Addresses">
             <Address />
           </Route>
           <Route exact path="/">
