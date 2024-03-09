@@ -4,7 +4,7 @@ const Experieence = () => {
     return (
       <div className="experience">
         <div className="section-two">
-          <RouterLink to="experience">
+          <RouterLink to="experiences">
             <span>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
