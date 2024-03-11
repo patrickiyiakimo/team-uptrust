@@ -407,7 +407,7 @@ body {
   .navbar {
     box-shadow: 1px 1px 8px rgb(43, 32, 93);
     padding-top: 10px;
-    max-width: 70;
+    /* max-width: 100; */
   }
   .navbar .list ul {
     padding-bottom: 10px;
