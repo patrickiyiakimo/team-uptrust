@@ -29,7 +29,7 @@ const Navbar = () => {
                   boxShadow: "0px 0px 8px blue",
                 }}
               >
-                Sign Up
+                Log in
               </motion.button>
             </Link>
           </li>
@@ -42,7 +42,7 @@ const Navbar = () => {
                   boxShadow: "0px 0px 8px blue",
                 }}
               >
-                Log in
+                Sign Up
               </motion.button>
             </Link>
           </li>
