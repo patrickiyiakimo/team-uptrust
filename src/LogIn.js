@@ -26,26 +26,25 @@ const pathVariants = {
   },
 };
 
-const SignUp = () => {
-  const [PhoneNumber, setPhoneNumber] = useState("");
+const LogIn = () => {
+//   const [Username, setUsername] = useState("");
   const [Password, setPassword] = useState("");
   const [Email, setEmail] = useState("");
-  const [PhoneNumberError, setPhoneNumberError] = useState(false);
+//   const [UsernameError, setUsernameError] = useState(false);
   const [PasswordError, setPasswordError] = useState(false);
   const [EmailError, setEmailError] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
   const history = useHistory();
 
-
   const handleSubmit = (e) => {
     e.preventDefault();
-    setPhoneNumberError(false);
+    // setUsernameError(false);
     setPasswordError(false);
     setEmailError(false);
 
-    if (PhoneNumber === "") {
-      setPhoneNumberError(true);
-    }
+    // if (Username === "") {
+    //   setUsernameError(true);
+    // }
 
     if (Password === "") {
       setPasswordError(true);
@@ -55,17 +54,16 @@ const SignUp = () => {
       setEmailError(true);
     }
 
-    if (PhoneNumber && Password && Email) {
-      console.log(PhoneNumber, Password, Email);
+    if ( Password && Email) {
+      console.log( Password, Email);
     }
-
 
     setIsLoading(true);
 
     fetch("https://uptrust-service-api.onrender.com/register", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(SignUp),
+      body: JSON.stringify(LogIn),
     }).then(() => {
       console.log("new data added");
       setIsLoading(false);
@@ -74,7 +72,7 @@ const SignUp = () => {
   };
 
   return (
-    <div className="signup">
+    <div className="login">
       <div className="svg">
         <motion.svg
           xmlns="http://www.w3.org/2000/svg"
@@ -107,20 +105,6 @@ const SignUp = () => {
         Unlock Your Potential with <span> Intelligent career Guidance</span>
       </p>
       <form noValidate autoComplete="off" onSubmit={handleSubmit}>
-        <TextField
-          style={{
-            width: "500px",
-            marginBottom: "60px",
-            border: "2px solid blue",
-            label: "secondary",
-          }}
-          onChange={(e) => setPhoneNumber(e.target.value)}
-          label="Phone Number"
-          variant="outlined"
-          color="secondary"
-          required
-          error={PhoneNumberError}
-        />
         <br></br>
         <TextField
           style={{
@@ -151,8 +135,7 @@ const SignUp = () => {
           error={EmailError}
         />
         <br></br>
-        {
-          !isLoading&&
+        {!isLoading && (
           <motion.button
             onClick={handleSubmit}
             initial={{ x: "-100vw" }}
@@ -167,11 +150,10 @@ const SignUp = () => {
           >
             Submit
           </motion.button>
-        }
-        {
-          isLoading&&
+        )}
+        {isLoading && (
           <motion.button
-              disabled
+            disabled
             onClick={handleSubmit}
             initial={{ x: "-100vw" }}
             animate={{ x: 0 }}
@@ -185,10 +167,10 @@ const SignUp = () => {
           >
             Submitting...
           </motion.button>
-        }
+        )}
       </form>
     </div>
   );
 };
 
-export default SignUp;
+export default LogIn;

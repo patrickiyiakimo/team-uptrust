@@ -15,6 +15,7 @@ import Experiences from "./Experiences";
 import Education from "./Education";
 import Socials from "./Socials";
 import Addresses from "./Addresses";
+import LogIn from "./LogIn";
 
 function App() {
   return (
@@ -22,6 +23,9 @@ function App() {
       <div className="App">
         <Switch>
           <Route path="/SignUp">
+            <SignUp />
+          </Route>
+          <Route path="/LogIn">
             <SignUp />
           </Route>
           <Route path="/GetStarted">
