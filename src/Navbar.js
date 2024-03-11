@@ -33,6 +33,19 @@ const Navbar = () => {
               </motion.button>
             </Link>
           </li>
+          <li>
+            <Link to="/SignUp">
+              <motion.button
+                whileHover={{
+                  scale: 1.1,
+                  textShadow: "0px 0px 8px blue",
+                  boxShadow: "0px 0px 8px blue",
+                }}
+              >
+                Log in
+              </motion.button>
+            </Link>
+          </li>
         </ul>
       </div>
     </div>

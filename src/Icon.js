@@ -25,7 +25,7 @@ const Edit = () => {
             name="text"
             placeholder="Start Year"
             required
-          />{" "}
+          />
           <br />
           <input type="text" name="text" placeholder="End Year" required />{" "}
           <br />
