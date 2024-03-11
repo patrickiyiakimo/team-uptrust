@@ -208,18 +208,18 @@ body {
   border: none;
   text-align: center;
 }
-.ourstory .section button:hover{
-  cursor:pointer;
+.ourstory .section button:hover {
+  cursor: pointer;
 }
 
 .meetourteam .img p {
   color: white;
-  display:none;
+  display: none;
 }
 
 .meetourteam .img strong {
   color: white;
-  display:none;
+  display: none;
 }
 
 .meetourteam .section h3 {
@@ -347,55 +347,51 @@ body {
   text-align: center;
 }
 .Profile button {
- border-radius:100%;
- width:400px;
- height:400px;
- background-color: rgb(62, 14, 62);
- opacity:0.5;
- border:none;
- outline:none;
- margin-left:35%;
- margin-top:100px;
- margin-bottom:50px;
+  border-radius: 100%;
+  width: 400px;
+  height: 400px;
+  background-color: rgb(62, 14, 62);
+  opacity: 0.5;
+  border: none;
+  outline: none;
+  margin-left: 35%;
+  margin-top: 100px;
+  margin-bottom: 50px;
 }
-.Profile svg{
-  color:rgb(217, 209, 209);
-  width:250px;
-  height:250px;
+.Profile svg {
+  color: rgb(217, 209, 209);
+  width: 250px;
+  height: 250px;
 }
-.section-two span svg{
-  width:20px;
-  height:20px;
-  position:absolute;
-  left:80%;
+.section-two span svg {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 80%;
 }
-.section-two span svg:hover{
-  color:purple;
-  cursor:pointer;
+.section-two span svg:hover {
+  color: purple;
+  cursor: pointer;
 }
-.section-two h4{
-  color:white;
+.section-two h4 {
+  color: white;
 }
-.section-two{
-   background-color: rgb(8, 8, 27);
-   margin:50px;
-   padding:50px;
-   border-radius:10px;
+.section-two {
+  background-color: rgb(8, 8, 27);
+  margin: 50px;
+  padding: 50px;
+  border-radius: 10px;
 }
-.section-two:hover{
+.section-two:hover {
   box-shadow: 1px 1px 8px rgb(43, 32, 93);
 }
-.section-two h3{
-color:white;
-margin-bottom:30px;
+.section-two h3 {
+  color: white;
+  margin-bottom: 30px;
 }
-.section-two p{
-  color:white;
+.section-two p {
+  color: white;
 }
-
-
-
-
 
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) {
   body {
@@ -411,7 +407,7 @@ margin-bottom:30px;
   .navbar {
     box-shadow: 1px 1px 8px rgb(43, 32, 93);
     padding-top: 10px;
-    max-width: 100;
+    max-width: 70;
   }
   .navbar .list ul {
     padding-bottom: 10px;
@@ -753,210 +749,204 @@ margin-bottom:30px;
     text-align: center;
   }
   .Profile button {
- border-radius:100%;
- width:200px;
- height:200px;
- background-color: rgb(62, 14, 62);
- opacity:0.5;
- border:none;
- outline:none;
- margin-left:12%;
- margin-top:100px;
- margin-bottom:50px;
- padding-bottom:20px;
-}
-.Profile svg{
-  color:rgb(217, 209, 209);
-  width:150px;
-  height:150px;
-}
-.Profile strong{
-  padding-top:25px;
-  margin-left:20px;
-  color:white;
-}
-.Profile strong{
-margin-right:30px;
-}
-.section-two{
-   background-color: rgb(8, 8, 27);
-   margin-right:20px;
-   margin-left:20px;
-   margin-bottom:40px;
-   padding-right:30px;
-   padding-bottom:30px;
-    padding-left:30px;
-   border-radius:10px;
-}
-.section-two span svg{
-  width:20px;
-  height:20px;
-  position:absolute;
-  left:75%;
-  margin-top:40px;
-  /* top:68%; */
-}
-.section-two h3{
-color:purple;
-padding-top:30px;
-padding-bottom:30px;
-margin-top:30px;
-}
-.section-two h4{
-  color:white;
-}
-.section-two p{
-color:white;
-}
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(62, 14, 62);
+    opacity: 0.5;
+    border: none;
+    outline: none;
+    margin-left: 12%;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    padding-bottom: 20px;
+  }
+  .Profile svg {
+    color: rgb(217, 209, 209);
+    width: 150px;
+    height: 150px;
+  }
+  .Profile strong {
+    padding-top: 25px;
+    margin-left: 20px;
+    color: white;
+  }
+  .Profile strong {
+    margin-right: 30px;
+  }
+  .section-two {
+    background-color: rgb(8, 8, 27);
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 40px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    border-radius: 10px;
+  }
+  .section-two span svg {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 75%;
+    margin-top: 40px;
+    /* top:68%; */
+  }
+  .section-two h3 {
+    color: purple;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 30px;
+  }
+  .section-two h4 {
+    color: white;
+  }
+  .section-two p {
+    color: white;
+  }
 
-.icon h1{
-  padding-top:30px;
-  text-align:center;
-  color:white;
-}
-.icon input{
-  padding:15px 80px;
-   margin-top:30px;
-  margin-left:50px;
-  outline:none;
-  border-radius:8px;
-  border-color:blue;
-  background-color:transparent;
-  color:white;
-}
-.icon button{
-  padding:12px 30px;
-  margin-left:150px;
-  margin-top:30px;
-  border:8px;
-   background: linear-gradient(to left, blue, rgb(137, 15, 105));
-   border-radius: 8px;
-   color:white;
-}
-.experience h1{
-  padding-top:30px;
-  text-align:center;
-  color:white;
- 
-}
-.experience input{
-  padding:15px 80px;
-  margin-top:30px;
-  margin-left:50px;
-  outline:none;
-  border-radius:8px;
-  border-color:blue;
-  background-color:transparent;
-  color:white;
-}
-.experience button{
-  padding:12px 30px;
-  margin-left:150px;
-  margin-top:30px;
-  border:8px;
-   background: linear-gradient(to left, blue, rgb(137, 15, 105));
-   border-radius: 8px;
-   color:white;
-}
-.skills h1{
-  padding-top:30px;
-  text-align:center;
-  color:white;
- 
-}
-.skills input{
-  padding:15px 80px;
-  margin-top:30px;
-  margin-left:50px;
-  outline:none;
-  border-radius:8px;
-  border-color:blue;
-  background-color:transparent;
-  color:white;
-}
-.skills button{
-  padding:12px 30px;
-  margin-left:150px;
-  margin-top:30px;
-  border:8px;
-   background: linear-gradient(to left, blue, rgb(137, 15, 105));
-   border-radius: 8px;
-   color:white;
-}
-.addresses h1{
-  padding-top:30px;
-  text-align:center;
-  color:white;
- 
-}
-.addresses input{
-  padding:15px 80px;
-  margin-top:30px;
-  margin-left:50px;
-  outline:none;
-  border-radius:8px;
-  border-color:blue;
-  background-color:transparent;
-  color:white;
-}
-.addresses button{
-  padding:12px 30px;
-  margin-left:150px;
-  margin-top:30px;
-  border:8px;
-   background: linear-gradient(to left, blue, rgb(137, 15, 105));
-   border-radius: 8px;
-   color:white;
-}
-.socials h1{
-  padding-top:30px;
-  text-align:center;
-  color:white;
-  
- 
-}
-.socials input{
-  padding:15px 80px;
-  margin-top:30px;
-  margin-left:50px;
-  outline:none;
-  border-radius:8px;
-  border-color:blue;
-  background-color:transparent;
-  color:white;
-}
-.socials button{
-  padding:12px 30px;
-  margin-left:150px;
-  margin-top:30px;
-  border:8px;
-   background: linear-gradient(to left, blue, rgb(137, 15, 105));
-   border-radius: 8px;
-   color:white;
-}
-.educations h1{
-  padding-top:30px;
-  text-align:center;
-  color:white;
- 
-}
-.educations input{
-  padding:15px 80px;
-  margin-top:30px;
-  margin-left:50px;
-  outline:none;
-  border-radius:8px;
-  border-color:blue;
-  background-color:transparent;
-  color:white;
-}
-.educations button{
-  padding:12px 30px;
-  margin-left:150px;
-  margin-top:30px;
-  border:8px;
-   background: linear-gradient(to left, blue, rgb(137, 15, 105));
-   border-radius: 8px;
-   color:white;
-}
+  .icon h1 {
+    padding-top: 30px;
+    text-align: center;
+    color: white;
+  }
+  .icon input {
+    padding: 15px 80px;
+    margin-top: 30px;
+    margin-left: 50px;
+    outline: none;
+    border-radius: 8px;
+    border-color: blue;
+    background-color: transparent;
+    color: white;
+  }
+  .icon button {
+    padding: 12px 30px;
+    margin-left: 150px;
+    margin-top: 30px;
+    border: 8px;
+    background: linear-gradient(to left, blue, rgb(137, 15, 105));
+    border-radius: 8px;
+    color: white;
+  }
+  .experience h1 {
+    padding-top: 30px;
+    text-align: center;
+    color: white;
+  }
+  .experience input {
+    padding: 15px 80px;
+    margin-top: 30px;
+    margin-left: 50px;
+    outline: none;
+    border-radius: 8px;
+    border-color: blue;
+    background-color: transparent;
+    color: white;
+  }
+  .experience button {
+    padding: 12px 30px;
+    margin-left: 150px;
+    margin-top: 30px;
+    border: 8px;
+    background: linear-gradient(to left, blue, rgb(137, 15, 105));
+    border-radius: 8px;
+    color: white;
+  }
+  .skills h1 {
+    padding-top: 30px;
+    text-align: center;
+    color: white;
+  }
+  .skills input {
+    padding: 15px 80px;
+    margin-top: 30px;
+    margin-left: 50px;
+    outline: none;
+    border-radius: 8px;
+    border-color: blue;
+    background-color: transparent;
+    color: white;
+  }
+  .skills button {
+    padding: 12px 30px;
+    margin-left: 150px;
+    margin-top: 30px;
+    border: 8px;
+    background: linear-gradient(to left, blue, rgb(137, 15, 105));
+    border-radius: 8px;
+    color: white;
+  }
+  .addresses h1 {
+    padding-top: 30px;
+    text-align: center;
+    color: white;
+  }
+  .addresses input {
+    padding: 15px 80px;
+    margin-top: 30px;
+    margin-left: 50px;
+    outline: none;
+    border-radius: 8px;
+    border-color: blue;
+    background-color: transparent;
+    color: white;
+  }
+  .addresses button {
+    padding: 12px 30px;
+    margin-left: 150px;
+    margin-top: 30px;
+    border: 8px;
+    background: linear-gradient(to left, blue, rgb(137, 15, 105));
+    border-radius: 8px;
+    color: white;
+  }
+  .socials h1 {
+    padding-top: 30px;
+    text-align: center;
+    color: white;
+  }
+  .socials input {
+    padding: 15px 80px;
+    margin-top: 30px;
+    margin-left: 50px;
+    outline: none;
+    border-radius: 8px;
+    border-color: blue;
+    background-color: transparent;
+    color: white;
+  }
+  .socials button {
+    padding: 12px 30px;
+    margin-left: 150px;
+    margin-top: 30px;
+    border: 8px;
+    background: linear-gradient(to left, blue, rgb(137, 15, 105));
+    border-radius: 8px;
+    color: white;
+  }
+  .educations h1 {
+    padding-top: 30px;
+    text-align: center;
+    color: white;
+  }
+  .educations input {
+    padding: 15px 80px;
+    margin-top: 30px;
+    margin-left: 50px;
+    outline: none;
+    border-radius: 8px;
+    border-color: blue;
+    background-color: transparent;
+    color: white;
+  }
+  .educations button {
+    padding: 12px 30px;
+    margin-left: 150px;
+    margin-top: 30px;
+    border: 8px;
+    background: linear-gradient(to left, blue, rgb(137, 15, 105));
+    border-radius: 8px;
+    color: white;
+  }
 }
