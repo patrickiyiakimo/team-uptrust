@@ -405,14 +405,14 @@ body {
   }
 
   .navbar {
-    /* box-shadow: 1px 1px 8px rgb(43, 32, 93); */
+    box-shadow: 1px 1px 8px rgb(43, 32, 93);
     padding-top: 10px;
-    /* max-width: 100; */
+    max-width: 99.5%;
   }
   .navbar .list ul {
     padding-bottom: 10px;
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
     list-style-type: none;
     margin-top: 30px;
     color: white;
@@ -422,13 +422,22 @@ body {
     display: none;
     font-size: 17px;
   }
+  .navbar .list small li button{
+    margin-left:-90px;
+    margin-right: 10px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    color: white;
+    background: linear-gradient(to left, blue, rgb(137, 15, 105));
+    border: none;
+  }
   .navbar .list span li h1 {
-    margin-top: -10px;
+    margin-top: 5px;
     margin-left: 4px;
   }
   .navbar .list li button {
-    margin-left: 10px;
-    /* margin-right: 30px; */
+    margin-left: -20px;
+    margin-right: 10px;
     padding: 10px 20px;
     border-radius: 8px;
     color: white;

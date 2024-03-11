@@ -20,19 +20,22 @@ const Navbar = () => {
           <section>
             <li>FAQ</li>
           </section>
-          <li>
-            <Link to="/SignUp">
-              <motion.button
-                whileHover={{
-                  scale: 1.1,
-                  textShadow: "0px 0px 8px blue",
-                  boxShadow: "0px 0px 8px blue",
-                }}
-              >
-                Log in
-              </motion.button>
-            </Link>
-          </li>
+          <small>
+            <li>
+              <Link to="/SignUp">
+                <motion.button
+                  whileHover={{
+                    scale: 1.1,
+                    textShadow: "0px 0px 8px blue",
+                    boxShadow: "0px 0px 8px blue",
+                  }}
+                >
+                  Log in
+                </motion.button>
+              </Link>
+            </li>
+          </small>
+
           <li>
             <Link to="/SignUp">
               <motion.button
