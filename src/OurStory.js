@@ -18,7 +18,7 @@ const OurStory = () => {
           Comparison, it streamlines your job search and skills development with
           prioritising privacy and security.
         </p>
-        <RouterLink>
+        <RouterLink to="LearnMore">
           <motion.button
             whileHover={{
               scale: 1.1,

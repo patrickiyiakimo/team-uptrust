@@ -1018,4 +1018,14 @@ body {
     height:25px;
     color:white;
   }
+  .learnmore h1{
+    color:white;
+    padding:15px 50px
+  }
+  .learnmore img{
+    margin-left:10px;
+    margin-right:10px;
+    width:400px;
+    height:400px;
+  }
 }

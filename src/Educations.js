@@ -13,7 +13,7 @@ const Educations = () => {
             type="text"
             name="text"
             placeholder="Institution Website"
-          />{" "}
+          />
           <br />
           <input type="text" name="text" placeholder="Description" /> <br />
           <button>Submit</button>
