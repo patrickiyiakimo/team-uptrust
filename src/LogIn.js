@@ -30,7 +30,6 @@ const LogIn = () => {
 //   const [Username, setUsername] = useState("");
   const [Password, setPassword] = useState("");
   const [Email, setEmail] = useState("");
-//   const [UsernameError, setUsernameError] = useState(false);
   const [PasswordError, setPasswordError] = useState(false);
   const [EmailError, setEmailError] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
@@ -38,13 +37,8 @@ const LogIn = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // setUsernameError(false);
     setPasswordError(false);
     setEmailError(false);
-
-    // if (Username === "") {
-    //   setUsernameError(true);
-    // }
 
     if (Password === "") {
       setPasswordError(true);
@@ -60,7 +54,7 @@ const LogIn = () => {
 
     setIsLoading(true);
 
-    fetch("https://uptrust-service-api.onrender.com/register", {
+    fetch("https://uptrust-service-api.onrender.com/login", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(LogIn),
@@ -68,7 +62,10 @@ const LogIn = () => {
       console.log("new data added");
       setIsLoading(false);
       history.push("/");
-    });
+    })
+        .catch(err =>{
+            console.log(err.message);
+      })
   };
 
   return (

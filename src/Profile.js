@@ -8,7 +8,7 @@ import { Link as RouterLink } from "react-router-dom";
 const Profile = () => {
   return (
     <div className="Profile">
-      <button>
+      {/* <button>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
@@ -28,8 +28,8 @@ const Profile = () => {
             d="M16.5 12.75a4.5 4.5 0 1 1-9 0 4.5 4.5 0 0 1 9 0ZM18.75 10.5h.008v.008h-.008V10.5Z"
           />
         </svg>
-      </button>
-      {/* <strong>Patrick Iyiakimo</strong> */}
+      </button> */}
+     
       <div className="section-two">
         <RouterLink to="icon">
           <span>

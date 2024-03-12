@@ -757,7 +757,7 @@ body {
     padding-bottom: 30px;
     text-align: center;
   }
-  .Profile button {
+  /* .Profile button {
     border-radius: 100%;
     width: 200px;
     height: 200px;
@@ -774,7 +774,7 @@ body {
     color: rgb(217, 209, 209);
     width: 150px;
     height: 150px;
-  }
+  } */
   .Profile strong {
     padding-top: 25px;
     margin-left: 20px;
