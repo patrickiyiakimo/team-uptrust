@@ -1013,14 +1013,13 @@ body {
     background: linear-gradient(to left, blue, rgb(137, 15, 105));
   }
   .content svg{
-   
     width:25px;
     height:25px;
     color:white;
   }
   .learnmore h1{
     color:white;
-    padding:15px 50px
+    
   }
   .learnmore img{
     margin-left:10px;
