@@ -16,6 +16,7 @@ import Education from "./Education";
 import Socials from "./Socials";
 import Addresses from "./Addresses";
 import LogIn from "./LogIn";
+import Output from "./Output";
 
 function App() {
   return (
@@ -26,7 +27,10 @@ function App() {
             <SignUp />
           </Route>
           <Route path="/LogIn">
-            <SignUp />
+            <LogIn />
+          </Route>
+          <Route path="/Output">
+            <Output />
           </Route>
           <Route path="/GetStarted">
             <Profile />

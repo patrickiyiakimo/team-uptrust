@@ -412,7 +412,7 @@ body {
   .navbar .list ul {
     padding-bottom: 10px;
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     list-style-type: none;
     margin-top: 30px;
     color: white;
@@ -422,8 +422,8 @@ body {
     display: none;
     font-size: 17px;
   }
-  .navbar .list small li button{
-    margin-left:-90px;
+  .navbar .list small li button {
+    margin-left: -90px;
     margin-right: 10px;
     padding: 10px 20px;
     border-radius: 8px;
@@ -957,5 +957,18 @@ body {
     background: linear-gradient(to left, blue, rgb(137, 15, 105));
     border-radius: 8px;
     color: white;
+  }
+  .output li h1 {
+    margin-left:20px;
+    top:20px;
+    color: white;
+    position:absolute;
+  }
+  .output li svg {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    color:white;
+    margin-left:350px;
   }
 }

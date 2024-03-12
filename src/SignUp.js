@@ -69,7 +69,7 @@ const SignUp = () => {
     }).then(() => {
       console.log("new data added");
       setIsLoading(false);
-      history.push("/");
+      history.push("/Output");
     });
   };
 

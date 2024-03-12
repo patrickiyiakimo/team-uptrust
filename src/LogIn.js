@@ -54,18 +54,18 @@ const LogIn = () => {
 
     setIsLoading(true);
 
-    fetch("https://uptrust-service-api.onrender.com/login", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(LogIn),
-    }).then(() => {
-      console.log("new data added");
-      setIsLoading(false);
-      history.push("/");
-    })
-        .catch(err =>{
-            console.log(err.message);
-      })
+      fetch("https://uptrust-service-api.onrender.com/login", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(LogIn),
+      }).then(() => {
+          console.log("new data added");
+          setIsLoading(false);
+          history.push("/");
+      });
+    //     .catch(err =>{
+    //         console.log(err.message);
+    //   })
   };
 
   return (
