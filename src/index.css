@@ -1019,7 +1019,9 @@ body {
   }
   .learnmore h1{
     color:white;
-    
+    margin-top:30px;
+    padding-left:20px;
+    padding-right:20px;
   }
   .learnmore img{
     margin-left:10px;
