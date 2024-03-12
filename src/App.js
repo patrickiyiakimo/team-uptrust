@@ -8,7 +8,6 @@ import OurStory from "./OurStory";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import SignUp from "./SignUp";
 import Profile from "./Profile";
-// import { Icon } from "@mui/material";
 import Icon from "./Icon";
 import Skills from "./Skills";
 import Experiences from "./Experiences";
@@ -17,6 +16,7 @@ import Socials from "./Socials";
 import Addresses from "./Addresses";
 import LogIn from "./LogIn";
 import Output from "./Output";
+import LearnMore from "./LearnMore";
 
 function App() {
   return (
@@ -31,6 +31,9 @@ function App() {
           </Route>
           <Route path="/Output">
             <Output />
+          </Route>
+          <Route path="/LearnMore">
+            <LearnMore />
           </Route>
           <Route path="/GetStarted">
             <Profile />

@@ -1,5 +1,6 @@
 // import { Link } from "@mui/material";
 import { motion } from "framer-motion";
+import { Link as RouterLink } from "react-router-dom";
 
 const OurStory = () => {
   const title = "Our Story";
@@ -17,7 +18,7 @@ const OurStory = () => {
           Comparison, it streamlines your job search and skills development with
           prioritising privacy and security.
         </p>
-      
+        <RouterLink>
           <motion.button
             whileHover={{
               scale: 1.1,
@@ -27,7 +28,7 @@ const OurStory = () => {
           >
             Learn More
           </motion.button>
-        
+        </RouterLink>
       </div>
     </div>
   );

@@ -450,7 +450,7 @@ body {
     color: white;
     position: absolute;
     margin-left: 20%;
-    top: 33%;
+    top: 31%;
   }
   .Spark h1 {
     margin-left: 25px;
@@ -958,17 +958,54 @@ body {
     border-radius: 8px;
     color: white;
   }
+  /* .output{
+    box-shadow:1px 1px 8px rgb(43, 32, 93)
+  } */
   .output li h1 {
-    margin-left:20px;
-    top:20px;
+    margin-left: 20px;
+    top: 10px;
     color: white;
-    position:absolute;
+    position: absolute;
   }
   .output li svg {
     width: 30px;
     height: 30px;
-    position: absolute;
-    color:white;
-    margin-left:350px;
+    /* position: absolute; */
+    color: white;
+    margin-left: 350px;
+  }
+  .content h2 {
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: purple;
+  }
+  .content p {
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+  }
+  .content input {
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 350px;
+    height: 40px;
+    border-radius: 12px;
+    border: none;
+    outline: none;
+    color: purple;
+  }
+  .content button {
+    width: 80px;
+    height: 40px;
+    margin-left: 150px;
+    margin-top: 30px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    color: white;
+    background: linear-gradient(to left, blue, rgb(137, 15, 105));
   }
 }
