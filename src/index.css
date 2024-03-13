@@ -681,6 +681,10 @@ body {
     /* margin-right: 20px; */
     outline: none;
   }
+  .meetourteam .newsletter input, textarea {
+    touch-action: manipulation; 
+}
+
   .meetourteam .newsletter button {
     margin: 0px;
     padding: 10px 30px;
@@ -831,6 +835,10 @@ body {
     background-color: transparent;
     color: white;
   }
+  .icon input, textarea {
+    touch-action: manipulation; 
+}
+
   .icon button {
     padding: 12px 30px;
     margin-left: 150px;
@@ -855,6 +863,10 @@ body {
     background-color: transparent;
     color: white;
   }
+  .experience input, textarea {
+    touch-action: manipulation; 
+}
+
   .experience button {
     padding: 12px 30px;
     margin-left: 150px;
@@ -879,6 +891,10 @@ body {
     background-color: transparent;
     color: white;
   }
+  .skills input, textarea {
+    touch-action: manipulation; 
+}
+
   .skills button {
     padding: 12px 30px;
     margin-left: 150px;
@@ -903,6 +919,10 @@ body {
     background-color: transparent;
     color: white;
   }
+  .addresses input, textarea {
+    touch-action: manipulation; 
+}
+
   .addresses button {
     padding: 12px 30px;
     margin-left: 150px;
@@ -926,7 +946,12 @@ body {
     border-color: blue;
     background-color: transparent;
     color: white;
+
   }
+  .socials input, textarea {
+    touch-action: manipulation; 
+}
+
   .socials button {
     padding: 12px 30px;
     margin-left: 150px;
@@ -951,6 +976,10 @@ body {
     background-color: transparent;
     color: white;
   }
+  .educations input, textarea {
+    touch-action: manipulation; 
+}
+
   .educations button {
     padding: 12px 30px;
     margin-left: 150px;
