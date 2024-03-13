@@ -3,29 +3,6 @@ import TextField from "@mui/material/TextField";
 import { useHistory } from "react-router-dom";
 import { motion } from "framer-motion";
 
-const svgVariants = {
-  hidden: { rotate: -180 },
-  visible: {
-    rotate: 0,
-    transition: { duration: 1 },
-  },
-};
-
-const pathVariants = {
-  hidden: {
-    opacity: 0,
-    pathLength: 0,
-  },
-  visible: {
-    opacity: 1,
-    pathLength: 1,
-    transition: {
-      duration: 2,
-      ease: "easeInOut",
-    },
-  },
-};
-
 const SignUp = () => {
   const [PhoneNumber, setPhoneNumber] = useState("");
   const [Password, setPassword] = useState("");
@@ -36,6 +13,28 @@ const SignUp = () => {
   const [isLoading, setIsLoading] = useState(false);
   const history = useHistory();
 
+  const svgVariants = {
+    hidden: { rotate: -180 },
+    visible: {
+      rotate: 0,
+      transition: { duration: 1 },
+    },
+  };
+
+  const pathVariants = {
+    hidden: {
+      opacity: 0,
+      pathLength: 0,
+    },
+    visible: {
+      opacity: 1,
+      pathLength: 1,
+      transition: {
+        duration: 2,
+        ease: "easeInOut",
+      },
+    },
+  };
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -45,27 +44,31 @@ const SignUp = () => {
 
     if (PhoneNumber === "") {
       setPhoneNumberError(true);
+      return; 
     }
 
     if (Password === "") {
       setPasswordError(true);
+      return; 
     }
 
     if (Email === "") {
       setEmailError(true);
+      return; 
     }
-
-    if (PhoneNumber && Password && Email) {
-      console.log(PhoneNumber, Password, Email);
-    }
-
 
     setIsLoading(true);
+
+    const userData = {
+      PhoneNumber,
+      Password,
+      Email,
+    };
 
     fetch("https://uptrust-service-api.onrender.com/register", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(SignUp),
+      body: JSON.stringify(userData),
     }).then(() => {
       console.log("new data added");
       setIsLoading(false);
@@ -73,6 +76,7 @@ const SignUp = () => {
     });
   };
 
+  
   return (
     <div className="signup">
       <div className="svg">
@@ -101,7 +105,6 @@ const SignUp = () => {
           />
         </motion.svg>
       </div>
-
       <h1>Uptrust</h1>
       <p>
         Unlock Your Potential with <span> Intelligent career Guidance</span>
@@ -152,7 +155,7 @@ const SignUp = () => {
         />
         <br></br>
         {
-          !isLoading&&
+          !isLoading &&
           <motion.button
             onClick={handleSubmit}
             initial={{ x: "-100vw" }}
@@ -169,9 +172,9 @@ const SignUp = () => {
           </motion.button>
         }
         {
-          isLoading&&
+          isLoading &&
           <motion.button
-              disabled
+            disabled
             onClick={handleSubmit}
             initial={{ x: "-100vw" }}
             animate={{ x: 0 }}
